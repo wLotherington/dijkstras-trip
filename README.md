@@ -13,7 +13,6 @@ The app uses Dijkstra's algorithm to find the shortest path based on distance. T
 
 ### Potential Improvements
 * Refactor code... all of it needs a lot of work
-* Deploy as production, not development
 * Allow user to click on the map instead of using the dropdown
 * Display the shortest path routes in an easily readable format
 * Filter airports on map once the starting point it selected to only show reachable airports.

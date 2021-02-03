@@ -20,3 +20,4 @@ The app uses Dijkstra's algorithm to find the shortest path based on distance. T
 * Add game feature where the user can race the algorithm at different levels of difficulty.
 * Only show the biggest cluster of airports. All of the "orphan" airports and tiny 2/3 airport clusters is annoying
 * Have all connections be bi-directional or figure out a way to show direction in the link.
+* reorganize data sets to make them more efficient to work with

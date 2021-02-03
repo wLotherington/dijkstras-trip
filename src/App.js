@@ -64,7 +64,7 @@ const App = () => {
       visited[current.code] = true;
       unvisited = unvisited.filter(airport => airport.code !== current.code);
 
-      DATA.routes.filter(route => route.src === current.code).forEach(route => {
+      DATA.routes.filter(route => route.src === current.code || route.dest === current.code).forEach(route => {
         let adjAirport = findAirport(route.dest);
 
         if (!visited[route.dest]) {
@@ -121,7 +121,7 @@ const App = () => {
       }
 
       DATA.routes.filter(route =>
-        route.src === current).forEach(route => {
+        route.src === current || route.dest === current).forEach(route => {
           if (!airports[route.dest] && route.dest !== start && queue.indexOf(route.dest) === -1) {
             queue.push(route.dest);
           }

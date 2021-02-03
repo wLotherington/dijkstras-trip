@@ -18,3 +18,5 @@ The app uses Dijkstra's algorithm to find the shortest path based on distance. T
 * Filter airports on map once the starting point it selected to only show reachable airports.
 * Improve flight path by allowing flights to go over the pacific.
 * Add game feature where the user can race the algorithm at different levels of difficulty.
+* Only show the biggest cluster of airports. All of the "orphan" airports and tiny 2/3 airport clusters is annoying
+* Have all connections be bi-directional or figure out a way to show direction in the link.
